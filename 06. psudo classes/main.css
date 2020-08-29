@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px;
+    margin: 0;
+}
+
+#product-overview {
+    background: #ff1b68;
+    padding: 20px;
+    margin: 20px;
+}
+
+#plans{
+    margin: 10px;
+}
+
+.section-title {
+    color: #2ddf5c;
+}
+
+h1 {
+    color: white;
+    font-family: 'Anton', sans-serif;
+}
+.main-header{
+    background: wheat;
+}
+
+.main-header > div ,.main-header__item,.main-header > nav,.main-header__items{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header__items{
+    font-weight: bold;
+    text-align: right;
+}
+
+.main-header{
+    text-align: right;
+    width: calc(100% - 100px);
+}
+
+.main-header__item > a{
+    color: green;
+    text-decoration: none;
+    margin: 0 10px 10px 0;
+}
+
+
+.main-header__item > a:hover,
+.main-header__item > a:active { 
+    color:white;
+}
+
+
+h1::first-letter {
+    font-size: 200%;
+    color: #8A2BE2;
+  }

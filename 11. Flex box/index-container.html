@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width,inital-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <h1>Flex : Container resize even if avilable width for all the elements is accupyed </h1>
+    <div class="flex-container">
+
+        <div class="item-1">
+            <span>ITEM 1:plain div with only content</span>
+            <p>
+            <ul>
+                <li>
+                    Item that occupys maximum height in <span>current container</span> that same height is applied to
+                    <span>current element</span>
+                </li>
+            </ul>
+            </p>
+        </div>
+
+        <div class="item-2">
+            <span>ITEM 2:plain div with only width</span>
+
+            <p>
+            <ul>
+                <li>Item that occupys maximum height in <span>current container </span>that same height is applied to
+                    <span>current element</span>
+                </li>
+                <li>As width is applied to <span>current element</span>.Thus <span>Maximum width current element can
+                        occupy is
+                        defined</span>.
+                </li>
+            </ul>
+            </p>
+        </div>
+
+        <div class="item-3">
+            <span>ITEM 3:plain div with only height</span>
+            <p>
+            <ul>
+                <li>
+                    Height doesnt change as height for <span>current element</span> is defined
+                </li>
+            </ul>
+
+            </p>
+        </div>
+
+    </div>
+    <h1>Inline-Flex : Container doesnt resize if avilable width for all the elements is accupyed </h1>
+    <div class="flex-container-inline">
+
+        <div class="item-1">
+            <span>ITEM 1:plain div with only content</span>
+            <p>
+            <ul>
+                <li>
+                    Item that occupys maximum height in <span>current container</span> that same height is applied to
+                    <span>current element</span>
+                </li>
+            </ul>
+            </p>
+        </div>
+
+        <div class="item-2">
+            <span>ITEM 2:plain div with only width</span>
+
+            <p>
+            <ul>
+                <li>Item that occupys maximum height in <span>current container </span>that same height is applied to
+                    <span>current element</span>
+                </li>
+                <li>As width is applied to <span>current element</span>.Thus <span>Maximum width current element can
+                        occupy is
+                        defined</span>.
+                </li>
+            </ul>
+            </p>
+        </div>
+
+        <div class="item-3">
+            <span>ITEM 3:plain div with only height</span>
+            <p>
+            <ul>
+                <li>
+                    Height doesnt change as height for <span>current element</span> is defined
+                </li>
+            </ul>
+
+            </p>
+        </div>
+
+    </div>
+
+    <h1>flex-wrap:wrap; : element jumps to new line if avilabel widht is not sufficent </h1>
+    <div class="flex-container-wrap">
+        <div class="item-1">
+            item 1
+        </div>
+        <div class="item-2">
+            item 2
+        </div>
+        <div class="item-3">
+            item 3
+        </div>
+    </div>
+    <h1>flex-direction:column; : element align veritcle </h1>
+    <div class="flex-container-direction">
+        <div class="item-1">
+            item 1
+        </div>
+        <div class="item-2">
+            item 2
+        </div>
+        <div class="item-3">
+            item 3
+        </div>
+    </div>
+</body>
+
+</html>
