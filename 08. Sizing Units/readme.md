@@ -1,13 +1,13 @@
-# Sizing refrence
+# Sizing reference
 
-    to appy the size css use 3 diffrent refrence point
+    to apply the size CSS use 3 different reference point
 
 
-1. Absolute : values that are defined by "px" are considred as absolute i.e the size doesnt change ir respective to page size font size
+1. Absolute: values that are defined by "px" are considered as absolute i.e the size doesn't change irrespective to page size font size
 
-2. viewport : values that are defined by vh,vw changes the sizing baased on relatve change of window height and width
+2. viewport: values that are defined by vh,vw changes the sizing based on the relative change of window height and width
 
-3. font-dependet : values that are defined by rem,em changes the sizing based on relative change of  font size
+3. font-dependet : values that are defined by rem,em changes the sizing based on the relative change of  font size
 
 # Pixel (px)
 
@@ -21,12 +21,12 @@ div{
 
 # Percentage (%)
 
-    Specify that element can occupy the defined percentage avilabel to it from parent element
+    Specify that element can occupy the defined percentage available to it from the parent element
 
     Note:
-    1. When % is applied to position fixed element then refence is view port
+    1. When % is applied to position fixed element then the reference is viewport
 
-    2.1. When % is applied to position absolute/static/relative element then refence is nearest parent element that has postion applied to it
+    2.1. When % is applied to position absolute/static/relative element then the reference is the nearest parent element that has a position applied to it
 
 # em (em)
 
@@ -41,7 +41,7 @@ div{
 
 # rem (rem)
 
-    this refres to the default font value of browser when calculating pixels for refrence
+    this refers to the default font value of browser when calculating pixels for reference
 ```css
 div{
 
@@ -53,7 +53,7 @@ div{
 
 # vh,vw
 
-    with this parameters sizing can be defined in refrence to view port 
+    with these parameters, sizing can be defined in reference to viewport 
 
 
 ```css

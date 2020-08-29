@@ -1,8 +1,8 @@
-# Css Combinators
+# CSS Combinators
 
     Adding style child  elements/element using combination of class/id/tag 
 
-1. Adjacent Sibling ( + ): Applyies css to adjesent element of parent selector specified. Only direct sibling gets css properties i.e in following example p tag should be defined next to h2 tag
+1. Adjacent Sibling ( + ): Applies CSS to adjacent element of parent selector specified. Only direct sibling gets CSS properties i.e in following example p tag should be defined next to h2 tag
 ```css
 h2 + p{
     color:red;
@@ -17,10 +17,10 @@ h2 + p{
 </div>
 ```
 
-2. General Sibling ( ~ ): Applyies css to adjesent elements of parent selector specified. all sibling gets css properties i.e in following example p tag can be defined in same level as h2 tag
+2. General Sibling ( ~ ): Applies CSS to adjacent elements of parent selector specified. all sibling gets CSS properties i.e in following example p tag can be defined in the same level as h2 tag
 ```css
 h2 ~ p{
-    color:red;
+    colour:red;
 }
 ```
 ```html
@@ -32,10 +32,10 @@ h2 ~ p{
 </div>
 ```
 
-3. Child Elements ( > ): Applyies css to child elements of parent selector spceifed. all child elements which are defined bellow one level gets css properties i.e in following example all p tag elements get css propertes that are only defined directly under div
+3. Child Elements ( > ): Applies CSS to child elements of parent selector specified. all child elements which are defined bellow one level get CSS properties i.e in following example all p tag elements get CSS properties that are only defined directly under div
 ```css
 div ~ p{
-    color:red;
+    colour:red;
 }
 ```
 ```html
@@ -50,10 +50,10 @@ div ~ p{
 </div>
 ```
 
-4. Decendent Elements ( "blank" ) : Applyies css to all child elements of parent selector spceifed. all child elements which are defined bellow parent selector gets css properties i.e in following example all p tag elements get css propertes that are  defined  under div
+4. Decedent Elements ( "blank" ): Applies CSS to all child elements of parent selector specified. all child elements which are defined bellow parent selector get CSS properties i.e in following example all p tag elements get CSS properties that are  defined  under div
 ```css
 div  p{
-    color:red;
+    colour:red;
 }
 ```
 ```html

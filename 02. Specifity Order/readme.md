@@ -1,6 +1,6 @@
 # Styling order/precedence 
 
-Order of Style applied to element if there are multple styles in affect
+Order of Style applied to an element if there are multiple styles in effect
 
 
 1. Inline Style : Highest order this will over write all styling

@@ -1,8 +1,8 @@
-# Psudo classes
+# Pseudo-classes
 
-    psudo classes allows styling of element in diffrent state example on hovor or on focus
+    pseudo-classes allow styling of an element in different state example on hover or on focus
 
-## Types of psudo selector
+## Types of a pseudo selector
 
 1. State (:) -> defined after the colon ":" for targeting perticular state of element
 ```css

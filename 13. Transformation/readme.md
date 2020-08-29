@@ -1,6 +1,6 @@
 ## transform
 
-    using transform proeprty we can change  an element 
+    using transform property we can change  an element 
 
 #### rotateZ()
     Using rotatez() function element can be rotated along the y-axis
@@ -40,7 +40,7 @@ div{
 
 
 ## transform-origin
-    using this proerty we can define the the pivot point from whare transform will orgin 
+    using this property we can define  the pivot point from whare transform will orgin 
     it takes default value like left,right,center
     and also the px,rem,%
 ```css

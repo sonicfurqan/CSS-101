@@ -1,10 +1,10 @@
 # box-sizing
 
-    this propertie controles how the widht and height is calculuated of element
+    this property controls how the width and height is calculated of element
     
-    1. Default is "content-box" : when height and widht is set of element it acually applies to elemetns content doesnt include margin and border size
+    1. Default is "content-box" : when height and width is set of element it actually applies to elements content doesn't include margin and border size
 
-    2. "border-box" : when height and widht is set of element it acually applies to elemetns including margin and border size
+    2. "border-box" : when height and width is set of the element it actually applies to elements including margin and border size
 
 ```css
 div{
@@ -14,9 +14,9 @@ div{
 
  # list-style
 
-    this propertie controles how ul,li list are displayed 
+    this property controls how ul,li list is displayed 
 
-    1. none : removes the bullet that are shown on li item
+    1. none : removes the bullet that is shown on li item
 
 ```css
 ul{
@@ -26,7 +26,7 @@ ul{
 
 # text-decoration
 
-    this propeties controles the text behavior example underlineing a text or stricktrhoug a text
+    this properties control the text behaviour example underlining a text or struckthrough a text
 ```css
 a{
     text-decoration:none;
@@ -35,7 +35,7 @@ a{
 
 # filter
 
-    this proptie allows adding affect to background propertie example it can apply blur,grayscale affect
+    this property allows adding effect to background properties example it can apply blur,grayscale effect
 
 ```css
 div{
@@ -45,9 +45,9 @@ div{
 }
 ```
 
-# Margin : auto
+# Margin: auto
 
-    by assiging auto to margin it centers the element in middile. This will work for block level element
+    by assigning auto to margin it centres the element in middle. This will work for block-level element
 
 ```css
 div{

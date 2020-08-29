@@ -1,65 +1,65 @@
-# Css Box module
+# CSS Box module
     
-    Every element in css is intrepreted as box that has following basic properties
+    Every element in CSS is interpreted as a box that has the following basic properties
 
 
-1. Height : Verticle space occupied by element on webpage
+1. Height: Verticle space occupied by element on the webpage
     
-2. Width : Horizontal space occupied by element on webpage
+2. Width: Horizontal space occupied by element on the webpage
 
-3. Padding : Internal space i.e between content of element and border 
+3. Padding: Internal space i.e between the content of element and border 
 
-4. border : outline of element 
+4. border: outline of the element 
 
-5. margin : extra spece between current element and other element that are its siblings
+5. margin: extra space between the current element and other elements that are its siblings
 
-6. display : controles behavior of element
+6. display: controls the behaviour of element
 
-7. color : controls the text color 
+7. colour: controls the text colour 
 
-8. background-color : controls the background color
+8. background-colour: controls the background-colour
 
-9. background-image : set background image using "url()" 
+9. background-image : set background image using "URL()" 
 
-9.1. background-repeat : control the repetence of image
+9.1. background-repeat: control the repentance of image
     
                         posible values . no-repate,y-repeat,x-repeat
 
-9.2. background-size : can set width and height and it also accepts following values
+9.2. background-size: can set width and height and it also accepts the following values
 
-                        cover: image is adjected to fit inside contaner .it is automaticaly croped
+                        cover: image is adjected to fit inside container .it is automatically cropped
 
-                        contain: image is adjected in container so that it is fully visible without croping
+                        contain: image is adjected in the container so that it is fully visible without cropping
 
-9.3. background-position : background positon has 3 diiffrent set of values that it can take
+9.3. background-position: background-position has 3 different sets of values that it can take
 
-                        if numbers in pixel is provided then image moves by reppectie pixel
+                        if numbers in a pixel is provided then image moves by respective pixel
 
-                        if numbers in percentage is provided then image is croped that is not visible
+                        if numbers in percentage are provided then the image is cropped that is not visible
 
-                        and it also accepts following values
+                        and it also accepts the following values
 
-                        center : image is centerd in container
+                        centre: image is centred in the container
 
-                        left top : image is aligned to by left and top and bottom and right is croped 
-                                    combination of left,top,bottom,right works as well
+                        left top: image is aligned to by left and top and bottom and right is cropped 
+                                    combination of left, top,bottom, right works as well
 
-Note:height and width popertie only sets height for element content this will not include values of padding/margin/border they are added extra to the element
+Note: height and width properties only sets the height for element content this will not include values of padding/margin/border they are added extra to the element
 
 
 ## Margin Collapsing
 
     If 2 elements that are siblings to each other and have margins.
-    Then the margin that is larger will take precendence and only that margin properties will come into affect
+    Then the larger margin will take precedence and only that margin properties will come into effect
 
 
 
 ## Display types
 
-1. Block : occupys full width by defult
+1. Block: occupies full width by default
 
-2. Inline : Occupys width that is equal to content . Margin/Padding (Top and Bottom)  doesnt apply to inline element
+2. Inline : Occupy width that is equal to content. Margin/Padding (Top and Bottom)  doesn't apply to an inline element
 
-3. none : Removes element from display yet keeps it in html
+3. none: Removes an element from display yet keeps it in HTML
 
-4. inline-block : it is mix of both block and inline i.e element will only occupy width that it reqires and we can set margin/padding to element
+4. inline-block: it is a mix of both block and inline i.e element will only occupy width that it requires and we can set margin/padding to an element

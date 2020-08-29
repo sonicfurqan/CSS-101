@@ -1,6 +1,6 @@
 # Shorthand properties
 
-    Combining mulipte properties of same type and writting in single propertie.
+    Combining multiple properties of the same type and writing in single properties.
 
 ## Example
 
@@ -18,7 +18,7 @@ div{
     border:2px solid black;
 }
 ```
-Order of values doesnt matter as each value is of diffrent type
+Order of values doesn't matter as each value is of different type
 
 2. For Margin :
 ```css
@@ -35,7 +35,7 @@ div{
     margin:2px 3px 4px 5px;
 }
 ```
-order of value matters as all the value of same type
+order of value matters as all the value of the same type
 
 3. for grid-column
 ```css
@@ -44,7 +44,7 @@ div{
     grid-column-end: span 1;
 }
 ```
-can be writen as
+can be written as
 
 ```css
 div{
@@ -59,7 +59,7 @@ div{
     grid-row-end: 2;
 }
 ```
-can be writen as
+can be written as
 
 ```css
 div{

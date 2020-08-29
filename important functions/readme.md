@@ -15,7 +15,7 @@
 
 # :not()
 
-    using this sudo selector you can taget an element without the defined call/id
+    using this pseudo selector you can target an element without the defined call/id
 
 ```css
 :not(p) {
@@ -25,11 +25,11 @@
 ```
 # linear-gradient
 
-    using this on bacground propertie you can create a gradient of colors
+    using this on background properties you can create a gradient of colours
     it take multiple parameters as input
-    1. first is angle of gradient in deg
-    2. then it follows the sequence of colors or images desried for gradient
-    3. along with color/image percentage of gradient can be defined in 
+    1. first is angle of a gradient in deg
+    2. then it follows the sequence of colors or images desired for gradient
+    3. along with color/image percentage of the gradient can be defined in 
 
 ```css
 div{
@@ -40,11 +40,11 @@ div{
 
 # repeat
 
-  using this funtion we can repeat the specified value the number of times defined
+  using this function we can repeat the specified value the number of times defined
 
-  it take 2 parameters
-  first is number of times it needs to repeat
-  second is value that it needs to repeat
+  it takes 2 parameters
+  first is the number of times it needs to repeat
+  second is a value that it needs to repeat
 
 ```css
 
@@ -56,11 +56,11 @@ div{
 
 # minmax
 
-  using this we can setup the minium and maximum the value using one line
+  using this we can setup the minimum and maximum the value using one line
 
-  it accepts 2 paramenters
+  it accepts 2 parameters
   first defines the minimum value the element can occupy
-  second defines the maximum value the element can occupy
+  the second defines the maximum value the element can occupy
 
 ```css
 div{
@@ -72,7 +72,7 @@ div{
 
 # fit-content()
 
-  using this function it takes one parameters that is default size simmiler to min-width, it is used in grid layout
+  using this function takes one parameter that is default size similar to min-width, it is used in grid layout
 
 ```css
   div{

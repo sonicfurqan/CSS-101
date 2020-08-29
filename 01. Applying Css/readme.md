@@ -1,4 +1,4 @@
-# Types to add css style
+# Types to add CSS style
 
 1. Inline Styling : Adding style to html element directly by using style tag
 ```html
@@ -33,7 +33,7 @@ div{
     </div>
 ```
 
-3. Global Styling: Adding style to all elements of html using *
+3. Global Styling: Adding style to all elements of HTML using *
 ```css
 *{
     font-family: sans-serif;
