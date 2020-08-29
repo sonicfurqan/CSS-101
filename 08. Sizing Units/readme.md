@@ -1,6 +1,6 @@
 # Sizing reference
 
-    to apply the size CSS use 3 different reference point
+to apply the size CSS use 3 different reference point
 
 
 1. Absolute: values that are defined by "px" are considered as absolute i.e the size doesn't change irrespective to page size font size
@@ -11,7 +11,7 @@
 
 # Pixel (px)
 
-    exact pixel value that is assigned to value for it to occupy
+exact pixel value that is assigned to value for it to occupy
 
 ```css
 div{
@@ -21,16 +21,17 @@ div{
 
 # Percentage (%)
 
-    Specify that element can occupy the defined percentage available to it from the parent element
+Specify that element can occupy the defined percentage available to it from the parent element
 
-    Note:
-    1. When % is applied to position fixed element then the reference is viewport
+Note:
 
-    2.1. When % is applied to position absolute/static/relative element then the reference is the nearest parent element that has a position applied to it
+1. When % is applied to position fixed element then the reference is viewport
+
+2. When % is applied to position absolute/static/relative element then the reference is the nearest parent element that has a position applied to it
 
 # em (em)
 
-    1 em is 16 px 
+1 em is 16 px 
 ```css
 div{
 
@@ -41,7 +42,7 @@ div{
 
 # rem (rem)
 
-    this refers to the default font value of browser when calculating pixels for reference
+this refers to the default font value of browser when calculating pixels for reference
 ```css
 div{
 

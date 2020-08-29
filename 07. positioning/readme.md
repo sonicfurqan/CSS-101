@@ -1,19 +1,6 @@
-# positioning  properties
-
-1. top : position on  y axis 
-
-2. bottom : position on  y axis 
-
-3. left : position on  x axis 
-
-4. right: position on  x axis 
-
-5. z-index  : position on  z axis 
-
-
 # positioning context 
 
-    when setting top,bottom,left,right properties on an element it positions itself relative to a context
+when setting top,bottom,left,right properties on an element it positions itself relative to a context
 
 1. view port : visible view of the window
 
@@ -34,3 +21,16 @@
 4. sticky: it is a combination of fixed and relative.postion context is viewport. element doesn't change position unless it reaches viewport relative position it sticks to positon and sticky position is relived when element leaves viewport i.e its parent content box is removed from the view port
 
 5. fixed: it makes the element to be fixed at the position defined by top,bottom,left,right,. this makes the element relative to viewport
+
+
+# positioning  properties
+
+1. top : position on  y axis 
+
+2. bottom : position on  y axis 
+
+3. left : position on  x axis 
+
+4. right: position on  x axis 
+
+5. z-index  : position on  z axis 

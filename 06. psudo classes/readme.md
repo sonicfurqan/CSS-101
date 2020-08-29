@@ -1,6 +1,6 @@
 # Pseudo-classes
 
-    pseudo-classes allow styling of an element in different state example on hover or on focus
+pseudo-classes allow styling of an element in different state example on hover or on focus
 
 ## Types of a pseudo selector
 

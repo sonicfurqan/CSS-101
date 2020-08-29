@@ -1,6 +1,6 @@
 # Shorthand properties
 
-    Combining multiple properties of the same type and writing in single properties.
+Combining multiple properties of the same type and writing in single properties.
 
 ## Example
 
