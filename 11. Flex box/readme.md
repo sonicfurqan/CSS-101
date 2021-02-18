@@ -31,7 +31,7 @@ all the elements will occupy height that is equal to the highest hight of one el
 
 container element has the following properties
 
-## flex-wrap
+### flex-wrap
 
 using flex wrap we can control how the elements behave when resizing
 
@@ -48,7 +48,7 @@ div{
 }
 ```
 
-## flex-direction
+### flex-direction
 
 using flex-direction we can control the alignment of elements 
 
@@ -68,7 +68,7 @@ when width is reduced element will reduce width to minimum irrespective of the c
 main axis is vertical
 cross axis is horizontal
 
-## align-items - position on cross axis
+### align-items - position on cross axis
 
 using align-items we can align-items.
 for the horizontal direction it aligns item top to bottom
@@ -86,7 +86,7 @@ items are aligned to right side for vertical
 
 baseline : items are aligned to contents baseline
 
-## justify-content - position on main axis
+### justify-content - position on main axis
 
 using align items we can align items.
 for the horizontal direction, it aligns item left to right
@@ -102,7 +102,7 @@ items are aligned to left side for vertical
 flex-end : items are aligned to top line of container for horizontal
 items are aligned to right side for vertical 
 
-## align-content:
+### align-content:
 
 using align content we can postion elemets
 
@@ -114,7 +114,7 @@ elements under the container element that has a position as flex applied are fle
 
 properties of flex item
 
-## order
+### order
 
 using order items can be positioned in axis it works similar to z-index but not same 
 
@@ -122,13 +122,13 @@ order takes integer value - to +.
 
 0 is the default.  - value makes element move to start and + makes the elements move to end 
 
-## align-self
+### align-self
 
 align-slef is similar to align-items. it takes same values as align-item.
 The difference is it affects only one element that is under the flex container.
 
 
-## flex-grow
+### flex-grow
 
 using flex grow we can allocate the space to the element that it can occupy. flex grow takes a positive integer as input
 
@@ -140,13 +140,13 @@ if there are 3 elements and we provide flex-grow:1 to 2 elements and flex-grow:2
 
 Note: if there are no elements in row/column then width is not divided as no element is present to divided and allocate space
 
-## flex-shrink
+### flex-shrink
 
 flex-shrink is opposite to flex grow. It accepts positive integer value default is 1, it allows element to shrink if it is set to 0 then it doesn't allow to shrink.
 
 it controls the shrinking of element
 
 
-## flex-basis
+### flex-basis
 
 using this we can  set width for horizontal direction and height for the vertical direction

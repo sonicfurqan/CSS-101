@@ -17,11 +17,11 @@ div{
 }
 ```
 
-## grid-auto-row/colum
+### grid-auto-row/colum
 
 using this property we can add default minimum height/width of element added to new row or column
 
-## grid-template-coloum
+### grid-template-coloum
 
 using this property we can define the number of columns and there respective width 
 
@@ -38,7 +38,7 @@ div{
 }
 ```
 
-## grid-template-rows
+### grid-template-rows
 
 using this property we can define the height of row in grid
 
@@ -53,7 +53,7 @@ div{
 }
 ```
 
-# grid-row/column-gap : grid-gap
+### grid-row/column-gap : grid-gap
 
 using this property we can define the space between the rows and column of the grid template
 
@@ -66,7 +66,7 @@ p{
     grid-gap:10px 10px;
 }
 ```
-# grid-template-areas :
+### grid-template-areas :
 
 using this property you can define the area name for each row or column that is defined in a template
 
@@ -84,9 +84,9 @@ div{
 }
 ```
 
-# align-container
+# Align Container
 
-# justify-content
+### justify-content
 
 this property aligns the container in its respective element size example:start,end,center
 using this it aligns  in a horizontal direction
@@ -99,7 +99,7 @@ div{
 ```
 
 
-# align-content
+### align-content
 
 this property aligns the container in its respective element size example:start,end,center
 using this it aligns  in the verticle direction
@@ -111,9 +111,9 @@ div{
 }
 ```
 
-# align items
+# Align Items
 
-## justify-items
+### justify-items
 
 this property aligns the elements in there respective position in grid example:start,end,center
 using this it aligns item in the horizontal direction
@@ -124,7 +124,7 @@ div{
     justify-items:center
 }
 ```
-## align-items
+### align-items
 
 this property aligns the elements in their respective position in grid example:start,end,center
 using this it aligns item in the verticle direction
@@ -140,11 +140,11 @@ div{
 
 when grid is created and grid template rows and columns properties are set it creates rows and columns with respective numbers starting from 1,2 and so on
 
-## grid-column-start /grid-column
+### grid-column-start /grid-column
 
 using this property we can set the elements position where it starts in the grid by column number
 
-## grid-column-end  /grid-column
+### grid-column-end  /grid-column
 
 using this property we can set the position of the element where it ends in grid by column number
 
@@ -160,11 +160,11 @@ div{
 }
 ```
 
-## grid-row-start / grid-row
+### grid-row-start / grid-row
 
 using this property we can set the position of the element where it starts in grid by row number
 
- ## grid-row-end  / grid-row
+### grid-row-end  / grid-row
 
 using this property we can set the position of the element where it ends in grid by row number
 
@@ -177,7 +177,7 @@ div{
 }
 ```
 
-# grid-area
+### grid-area
 
 using this element can be position in area that is defined using property gird template areas in container gird
 
@@ -189,7 +189,7 @@ div{
 
 
 
-## justify-self
+### justify-self
 
 this property aligns the element in its respective position in grid example:start,end,center
 using this it aligns item in the horizontal direction
@@ -199,7 +199,7 @@ div{
     justify-self:center
 }
 ```
-## align-self
+### align-self
 
 this property aligns the element in its respective position in grid example:start,end,center
 using this it aligns item in the verticle direction
@@ -209,3 +209,6 @@ div{
     align-self:center
 }
 ```
+
+
+4,30,000
