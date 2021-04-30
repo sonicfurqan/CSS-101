@@ -34,7 +34,7 @@ h2 ~ p{
 
 3. Child Elements ( > ): Applies CSS to child elements of parent selector specified. all child elements which are defined bellow one level get CSS properties i.e in following example all p tag elements get CSS properties that are only defined directly under div
 ```css
-div ~ p{
+div > p{
     colour:red;
 }
 ```
